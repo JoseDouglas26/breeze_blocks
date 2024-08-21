@@ -1,4 +1,4 @@
-# Breeze Blocks for Mineclonia (mcl_breeze_blocks)
+# Breeze Blocks for Mineclonia (breeze_blocks)
 ## Description
 Adds uniquely shaped colored blocks to Mineclonia. There are currently 4 formats, each with 16 colors. New formats may come in future updates.
 ## Obtaining
