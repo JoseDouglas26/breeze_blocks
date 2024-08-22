@@ -26,7 +26,11 @@ end
 
 for _, model in pairs(models) do
     for color, defs in pairs(mcl_dyes.colors) do
+        local concrete = "mcl_colorblocks:concrete_"..color
+        local concrete_defs = minetest.registered_nodes[concrete]
         local texture = "mcl_colorblocks_concrete_"..color..".png"
+
+        concrete_defs.groups.stonecuttable = 1
 
         minetest.register_node("breeze_blocks:"..model.."_"..color, {
             description = S("@1 @2 Breeze Block", defs.readable_name, make_desc(model)),
