@@ -1,5 +1,8 @@
 local S = minetest.get_translator("breeze_blocks")
-local models = { "rods", "eye", "rhomb", "cross", "foury", "hexagon", "star", "pinwheel", "butterfly" }
+local models = {
+    "rods", "eye", "rhomb", "cross", "foury", "hexagon", "star", "pinwheel", "butterfly", "waves",
+    "flower", "lambda"
+}
 
 local function make_desc(name)
     if name == "foury" then
