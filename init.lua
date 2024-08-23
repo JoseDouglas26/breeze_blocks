@@ -1,8 +1,8 @@
 local S = minetest.get_translator("breeze_blocks")
 local models = {
     "rods", "eye", "rhomb", "cross", "foury", "hexagon", "star", "pinwheel", "butterfly", "waves",
-    "flower", "lambda"
-}
+    "flower", "lambda", "arch"
+} -- , "", "", ""
 
 local function make_desc(name)
     if name == "foury" then
@@ -37,7 +37,7 @@ for _, model in pairs(models) do
 
         minetest.register_node("breeze_blocks:"..model.."_"..color, {
             description = S("@1 @2 Breeze Block", defs.readable_name, make_desc(model)),
-            groups = { pickaxey = 1 },
+            groups = { breeze_block = 1, building_block = 1, pickaxey = 1 },
             collision_box = { type = "fixed", fixed = { -0.5, -0.5, -0.125, 0.5, 0.5, 0.125 } },
             selection_box = { type = "fixed", fixed = { -0.5, -0.5, -0.125, 0.5, 0.5, 0.125 } },
             sunlight_propagates = true,
