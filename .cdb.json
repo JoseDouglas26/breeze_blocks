@@ -5,7 +5,7 @@
     "forums": null,
     "issue_tracker": "https://github.com/JoseDouglas26/breeze_blocks/issues",
     "license": "MIT",
-    "long_description": "# Breeze Blocks for Mineclonia (breeze_blocks)\n## Description\nAdds uniquely shaped colored blocks to Mineclonia. There are currently 4 formats, each with 16 colors. New formats may come in future updates.\n## Obtaining\nThese blocks can be obtained using the stonecutter. Use the concrete blocks to craft the breeze block in the shape of your choice.",
+    "long_description": "# Breeze Blocks for Mineclonia (breeze_blocks)\n## Description\nAdds uniquely shaped colored blocks to Mineclonia. The blocks have 16 shapes, each with 16 colors, totaling 256 different blocks.\n## Obtaining\nThese blocks can be obtained using the stonecutter. Use the concrete blocks to craft the breeze block in the shape of your choice.",
     "media_license": "CC-BY-SA-3.0",
     "name": "breeze_blocks",
     "repo": "https://github.com/JoseDouglas26/breeze_blocks",
